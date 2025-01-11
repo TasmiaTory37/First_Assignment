@@ -188,3 +188,117 @@ body{
     font-weight: semi-bold;
     margin-top: 24px;
 }
+
+ /* Quote Section start  */
+
+ .quote{
+    background-color: white ;
+    padding: 24px 48px;
+    border-radius: 15px;
+    border: 1px solid rgb(14, 14, 14,.15) ;
+ }
+ .quoteinside{
+    background-image: url(images/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 12px;
+ }
+ .quoteh4{
+    font-size: 20px;
+    color: black;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: bold;
+ }
+
+ .quotep2 .quotep {
+    font-size: 16px;
+    color:rgb(14, 14, 14,0.7) ;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 12px 0px;
+ }
+
+ /* Quote section end */
+
+ /* Recent News Section start  */
+
+.recentnews{
+    margin: 80px 0px;
+    
+}
+
+.newsh1{
+    font-size: 40px;
+    color: black;
+    margin-block-start: 0em;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.newsp{
+    margin-bottom: 32px;
+    font-size: 16px;
+    color:rgb(14, 14, 14,0.7) ;
+    margin-block-start: 0em;
+
+}
+.newscards{
+  display: flex;
+  flex-direction: column;
+gap: 24px;
+}
+
+.newscard1{
+    background-color:white ;
+    padding: 48px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px; ;
+    
+}
+.newscardimg{
+    border: none;
+    border-radius: 15px;
+    width: 40%;
+}
+.newscardtext {
+    width: 60%;
+}
+.newscardh2{
+    font-size: 32px;
+    color: black;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: bold;
+}
+.newstime{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+}
+.newsbutton{
+    padding: 13px 26px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: semi-bold;
+    
+}
+.newscard2{
+    background-color:white ;
+    padding: 48px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px; ;
+    
+}
+
+ /* Recent News Section end  */
